@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxurePublisher.Web.Main", "AxurePublisher.Web.Main\AxurePublisher.Web.Main.csproj", "{EF2BA344-F077-43C9-8C1F-4EF434E8AECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxurePublisher.Web", "AxurePublisher.Web\AxurePublisher.Web.csproj", "{A4C960AD-2C79-447C-91B7-1D8C11C9B0F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF2BA344-F077-43C9-8C1F-4EF434E8AECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2BA344-F077-43C9-8C1F-4EF434E8AECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2BA344-F077-43C9-8C1F-4EF434E8AECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2BA344-F077-43C9-8C1F-4EF434E8AECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C960AD-2C79-447C-91B7-1D8C11C9B0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C960AD-2C79-447C-91B7-1D8C11C9B0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C960AD-2C79-447C-91B7-1D8C11C9B0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C960AD-2C79-447C-91B7-1D8C11C9B0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
