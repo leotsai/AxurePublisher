@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using AxurePublisher.Core;
 
 namespace AxurePublisher.Main
 {
@@ -10,7 +11,11 @@ namespace AxurePublisher.Main
         static void Main(string[] args)
         {
             Core.Publisher.Start();
-            Console.WriteLine("Started watching...".ToUpper());
+            Console.Write("Started watching ".ToUpper());
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("[{0}]", AppContext.WatchingFolder);
+            Console.ResetColor();
+            Console.WriteLine("... ...");
             while (true)
             {
                 Console.Read();

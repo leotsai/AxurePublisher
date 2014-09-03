@@ -103,7 +103,7 @@ namespace AxurePublisher.Core
                                     Console.ForegroundColor = _errors.Count == 0 ? ConsoleColor.Green : ConsoleColor.Red;
                                     Console.WriteLine("Success: "+ successCount);
                                     Console.WriteLine("Errors: " + _errors.Count);
-                                    Console.ForegroundColor = ConsoleColor.White;
+                                    Console.ResetColor();
                                     callback();
                                 }
                                 break;

@@ -23,7 +23,7 @@ namespace AxurePublisher.Core
                     client.UploadFile(url, file.FullPath);
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("uploaded " + file.Name);
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ResetColor();
                     return true;
                 }
             }
@@ -31,7 +31,7 @@ namespace AxurePublisher.Core
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("error " + file.Name);
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.ResetColor();
                 return false;
             }
         }
